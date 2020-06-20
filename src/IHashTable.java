@@ -1,3 +1,8 @@
+/**
+ * Title: IHashTable.java
+ * Description: Interface that acts a template for the hash table.
+ */
+
 public interface IHashTable {
 
     /** Insert the string value into the hash table

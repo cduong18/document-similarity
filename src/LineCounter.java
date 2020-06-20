@@ -1,13 +1,13 @@
+/**
+ * Title: LineCounter.java
+ * Description: File that counts common lines in various files
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/**
- * A class that counts common lines in various files
- */
-
 public class LineCounter {
-
 
     /**
      * Method to print the filename to console

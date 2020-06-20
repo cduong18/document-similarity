@@ -4,6 +4,7 @@
  */
 
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.text.DecimalFormat;
 import java.util.Iterator;
@@ -215,7 +216,7 @@ public class HashTable implements IHashTable {
         this.collision = 0;
         this.collisionArray = new int[newLength];
 
-        // adding an empty LinkedLikst to every index of new hash table
+        // adding an empty LinkedList to every index of new hash table
         for (int i = 0; i < newLength; i++) {
             this.array[i] = new LinkedList<>();
         }
